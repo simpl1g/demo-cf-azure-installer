@@ -1,1 +1,17 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
 site 'http://community.opscode.com/api/v1'
+
+# cookbook 'chef-client'
+
+cookbook 'apt', '1.10.0'
+cookbook 'git'
+cookbook 'sqlite'
+cookbook 'mysql'
+cookbook 'postgresql'
+cookbook 'chef-golang'
+cookbook 'java'
+
+cookbook 'ruby_build'
+cookbook 'rbenv', github: 'fnichol/chef-rbenv', :branch => "e10f98d5fd07bdb8d212ebf42160b65c39036b90"
