@@ -1,0 +1,53 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (1.10.0)
+    aws (1.0.0)
+    build-essential (1.4.2)
+    chef-golang (1.0.1)
+    chef_handler (1.1.4)
+    dmg (2.0.4)
+    git (2.7.0)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0.0)
+      windows (>= 0.0.0)
+      yum (>= 0.0.0)
+    java (1.14.0)
+      aws (>= 0.0.0)
+      windows (>= 0.0.0)
+    mysql (3.0.12)
+      build-essential (~> 1.4)
+      openssl (~> 1.1)
+    openssl (1.1.0)
+    postgresql (3.1.0)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
+    ruby_build (0.8.0)
+    runit (1.3.0)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    sqlite (1.0.0)
+    windows (1.11.0)
+      chef_handler (>= 0.0.0)
+    yum (2.4.0)
+
+GIT
+  remote: https://github.com/fnichol/chef-rbenv
+  ref: e10f98d5fd07bdb8d212ebf42160b65c39036b90
+  sha: e10f98d5fd07bdb8d212ebf42160b65c39036b90
+  specs:
+    rbenv (0.7.3)
+
+DEPENDENCIES
+  apt (= 1.10.0)
+  chef-golang (>= 0)
+  git (>= 0)
+  java (>= 0)
+  mysql (>= 0)
+  postgresql (>= 0)
+  rbenv (>= 0)
+  ruby_build (>= 0)
+  sqlite (>= 0)
+
