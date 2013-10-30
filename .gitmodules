@@ -1,0 +1,3 @@
+[submodule "cf-vagrant-installer"]
+	path = cf-vagrant-installer
+	url = git@github.com:Altoros/cf-vagrant-installer.git
